@@ -23,6 +23,11 @@ h6 {
 
 .topnav {
     font-size: 14px; 
+    background-color: lightgrey;
+}
+
+.navbar {
+    margin-bottom: 0;
 }
 
 .lead {
@@ -172,3 +177,7 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+
+
+
