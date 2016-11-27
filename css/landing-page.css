@@ -23,11 +23,25 @@ h6 {
 
 .topnav {
     font-size: 14px; 
-    background-color: lightgrey;
+    background-color: transparent;
 }
+
 
 .navbar {
     margin-bottom: 0;
+    background-color: white;
+    opacity: 0;
+}
+
+.navbar2 {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+
+}
+
+.navbar-default {
+    color: white;
 }
 
 .lead {
