@@ -41,4 +41,7 @@ gulp.task('default', function () {
   gulp.watch('*.html', function (event) {
     gulp.run('minify');
   })
+  gulp.watch('img/*', function (event) {
+    gulp.run('compr-img');
+  })
 })
